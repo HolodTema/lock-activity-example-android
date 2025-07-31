@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.LoginActivity">
 
 
     <TextView
@@ -123,7 +123,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button5"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="15dp"
