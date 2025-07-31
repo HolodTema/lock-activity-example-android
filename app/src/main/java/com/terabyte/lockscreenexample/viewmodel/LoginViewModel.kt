@@ -5,4 +5,5 @@ import androidx.lifecycle.ViewModel
 
 class LoginViewModel: ViewModel() {
     val liveDataPassword = MutableLiveData("")
+    val liveDataIntentKey = MutableLiveData("")
 }

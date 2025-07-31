@@ -21,7 +21,7 @@ object PasswordHelper {
         }
     }
 
-    private fun getPasswordHash(context: Context): Long {
+    fun getPasswordHash(context: Context): Long {
         val shPreferences = context.getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE)
         return shPreferences.getLong(SH_PREFERENCES_KEY_PASSWORD, 0L)
     }
